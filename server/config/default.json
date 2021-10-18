@@ -1,0 +1,5 @@
+//define a template for all the settings of the app without values
+//the actual values in the custom file
+{
+  "jwtPrivateKey": "hello"
+}

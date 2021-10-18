@@ -1,0 +1,70 @@
+.comment {
+  margin-top: 1rem;
+  transform: translateY(1rem);
+  opacity: 0;
+  animation: fadeUp 0.2s ease-out normal forwards;
+
+  &__user {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &__img {
+      width: 2.5rem;
+      border-radius: 50%;
+    }
+    span {
+      color: gray;
+      font-size: 1rem;
+    }
+  }
+
+  p {
+    padding: 0.3rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  &__icon {
+    color: rgba(218, 22, 22, 0.856);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+}
+
+.commentInput {
+  margin-top: 2rem;
+
+  &__user {
+    display: flex;
+    align-items: center;
+    img {
+      width: 2.5rem;
+      border-radius: 50%;
+    }
+  }
+
+  &__field {
+    border: 0;
+    outline: 0;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem 0;
+    width: 80%;
+    overflow: visible;
+    font-size: 1.2rem;
+    background-color: #ccc;
+    border-radius: 20px;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}

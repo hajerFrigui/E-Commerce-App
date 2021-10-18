@@ -1,0 +1,17 @@
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 1rem 0.4rem;
+  border-radius: 5px;
+  background-color: royalblue;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &__disabled {
+    cursor: context-menu;
+    opacity: 0.5;
+  }
+}

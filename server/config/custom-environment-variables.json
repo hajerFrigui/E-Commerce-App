@@ -1,0 +1,7 @@
+//define  var d'env
+//specify the mapping between our app settings and var d'env
+{
+  //setting of the app : nom de var d'env
+  //donc we should define this var d'env on our pc and give her a value before we run the app
+  //"jwtPrivateKey": "ecommerce_jwtPrivateKey"
+}
